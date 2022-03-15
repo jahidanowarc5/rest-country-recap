@@ -1,0 +1,21 @@
+*{
+    border: 1px solid red;
+}
+
+#countries{
+    /* display: flex;
+    background-color: blueviolet; */
+    display: grid !important;
+    grid-template-columns: repeat(3,1fr)!important;
+
+}
+
+/* .country{
+    border:3px solid goldenrod;
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 20px;
+} */
+.country img{
+    width: 200px;
+}
